@@ -1,4 +1,4 @@
-{#   overriding default schema generting name macro #}
+{#  overriding default schema_generating_name macro #}
 
 {% macro generate_schema_name(custom_schema_name, node) -%}
 
