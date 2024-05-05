@@ -1,3 +1,5 @@
+dbt-cloud:
+    project-id: 357506
 
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
