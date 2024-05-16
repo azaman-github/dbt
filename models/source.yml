@@ -1,0 +1,42 @@
+version : 2
+
+sources:
+    # source name
+    - name : products  
+      description: '{{ doc ("prod_desc") }}'
+      database: scratch
+      schema: workspace
+      # table name
+      tables :
+        - name: product
+          columns: 
+              - name: pid
+                description: product description
+                tests:
+                  - unique
+                  - not_null
+              - name: pcode
+                description: product code
+              - name: pdesc
+                description: product description
+              - name: unit_price 
+                description: unit_price
+              - name: pdisc
+                description: product discount
+              - name: updated_at 
+                description: record creation timestamp 
+
+    - name : depts 
+      description: Has all department details
+      database:    scratch
+      schema:      workspace
+      tables :
+        - name: dept
+          # column names and values must be separated by a space.
+          columns:        
+              - name: dno 
+                description: department id
+              - name: dname
+                description: department name
+              - name: dloc
+                description: department location
