@@ -5,6 +5,7 @@ WELCOME to your new dbt project!
 
 ### Using the starter project
 
+# TESTING git diff command
 Try running the following commands:
 - dbt run
 - dbt test
