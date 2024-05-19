@@ -1,3 +1,4 @@
+#LATEST CHANGE VIA FRONTEND
 #TESTING GH CHANGES
 
 WELCOME to your new dbt project!
