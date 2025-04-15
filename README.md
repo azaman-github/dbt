@@ -1,5 +1,4 @@
 Change1
-Change2
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
