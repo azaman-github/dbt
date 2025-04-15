@@ -1,0 +1,2 @@
+packages:
+  - local: "/home/ec2-user/gh/dbt/local_packages"
